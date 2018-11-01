@@ -37,6 +37,13 @@ public class Aluno {
 		this.ultimoNome = ultimoNome;
 		this.email = email;
 	}
+	public Aluno(String primeiroNome, String ultimoNome, String email) {
+		super();
+		this.primeiroNome = primeiroNome;
+		this.ultimoNome = ultimoNome;
+		this.email = email;
+	}
+	
 	
 
 }
